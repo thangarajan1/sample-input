@@ -32,6 +32,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Login />} />
+            <Route path="/sample-input" element={<Login />} />
+
           </Routes>
         </BrowserRouter>
            ) : (
